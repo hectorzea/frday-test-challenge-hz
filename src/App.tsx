@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useContext } from "react";
+import { Container, Title } from "./components/VehiloveStyledComponents";
 
-function App() {
+import Makes from "./components/Makes";
+import Models from "./components/Models";
+import Vehicles from "./components/Vehicles";
+import SelectedVehicle from "./components/SelectedVehicle";
+import { MAKES, MAKES_ERROR_RETRIEVE_RECORDS } from "./constants";
+
+import AppContext from "./context/AppContext";
+export const App = () => {
+  const { selectedMake, selectedModel, loadData, selectedVehicle } =
+    useContext(AppContext);
+
+  useEffect(() => {
+    loadData(
+      MAKES,
+      false,
+      {},
+      {
+        errorType: MAKES,
+        message: MAKES_ERROR_RETRIEVE_RECORDS,
+      }
+    );
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Title>Vehilove APP</Title>
+      {selectedVehicle ? (
+        <SelectedVehicle />
+      ) : (
+        <>
+          <Makes />
+          {selectedMake && <Models />}
+          {selectedMake && selectedModel && <Vehicles />}
+        </>
+      )}
+    </Container>
   );
-}
-
-export default App;
+};
