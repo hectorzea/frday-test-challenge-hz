@@ -10,13 +10,12 @@ All of this done completly in TYPESCRIPT <3!
 
 if you want to run the project just clone, and inside the cloned folder type the following command:
 
-1- download and start the api server provided by Friday using 
-   (https://gitlab.forfriday.de/-/snippets/56)
+1) download and start the api server provided by Friday
+   https://www.dropbox.com/s/i3bjhj90ccbtf1w/friday-code-challenge.zip?dl=0&file_subpath=%2Fapiserver
  
-  
 2) enter inside the downloaded folder and use the command "node apiserver/server.js" to start the backend server
 
-2- start the frontend 
+3)- start the frontend 
 
   yarn start 
   
