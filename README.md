@@ -69,7 +69,7 @@ if the server is shutted down i will warn you =)
 
 ## How is the 503 random backend error resolved here?🧐🧐
 
-Inside the provider is a function called loadData, that is the responsible for all the backend calls, its a generic function that receives an entity and if we have params we send a params object. all this calls are catched because at some random time when we call the backend a 503 error can happen. so this is solved in the application using a retry button
+Inside the provider is a function called loadData, that is the responsible for all the backend calls, its a generic function that receives an entity and if we have params we send a params object. all this calls are catched because at some random time when we call the backend a 503 error can happen. so this is solved in the application using a retry button, so, click retry until that random goes nice with you =)
 
 ![image](https://user-images.githubusercontent.com/19554398/143964562-384e4780-793b-4e4c-b58d-c95e38c16c7d.png)
 
