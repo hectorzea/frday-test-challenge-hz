@@ -8,6 +8,8 @@ Vehilove is a simple application that allows you to pick first a make, then the 
 
 All of this done completly in TYPESCRIPT <3!
 
+if you want to run the project just clone, and inside the folder cloned use ## yarn start
+
 Desktop Version
 
 ![image](https://user-images.githubusercontent.com/19554398/143962865-3aafc419-c036-4dd7-acf6-90dd6e1bdd89.png)
