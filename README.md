@@ -8,6 +8,8 @@ Vehilove is a simple application that allows you to pick first a make, then the 
 
 All of this done completly in TYPESCRIPT <3!
 
+##Installing the project!
+
 if you want to run the project just clone, and inside the cloned folder type the following command:
 
 1) download and start the api server provided by Friday
@@ -15,9 +17,7 @@ if you want to run the project just clone, and inside the cloned folder type the
  
 2) enter inside the downloaded folder and use the command "node apiserver/server.js" to start the backend server
 
-3) start the frontend 
-
-  yarn start 
+3) start the frontend with "yarn start" 
   
 and when everything its up, it will automatically open the http://localhost:3000/
    
