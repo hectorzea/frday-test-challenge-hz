@@ -47,7 +47,7 @@ Context: this is like the body of how my data flow will be working, this is call
 
 Provider: the provider is the responsible for moving and dispatching all this properties across the entire application, like selecting a make, model, or vehicle.
 
-## How is the 503 random backend error resolved here? 😩
+## How is the 503 random backend error resolved here?🧐🧐
 
 Inside the provider is a function called loadData, that is the responsible for all the backend calls, its a generic function that receives an entity and if we have params we send a params object. all this calls are catched because at some random time when we call the backend a 503 error can happen. so this is solved in the application using a retry button
 
