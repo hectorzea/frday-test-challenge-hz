@@ -8,7 +8,7 @@ Vehilove is a simple application that allows you to pick first a make, then the 
 
 All of this done completly in TYPESCRIPT <3!
 
-##Installing the project!
+# Installing the project!
 
 if you want to run the project just clone, and inside the cloned folder type the following command:
 
