@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The name of the application its called Vehilove
 
+Link of the application video ---> https://www.youtube.com/watch?v=MkhnhO_9Fco&ab_channel=HectorZea
+
 Vehilove is a simple application that allows you to pick first a make, then the app bring you all the models, and when you select a model it shows all the available vehicles and simple selecting one to finish =)
 
 All of this done completly in TYPESCRIPT <3!
