@@ -71,5 +71,8 @@ Inside the provider is a function called loadData, that is the responsible for a
 
 this process is used for the models and for the vehicles too, so, thats nice because the user can keep going with the process of selecting a vehicle without having a crash in the application 
 
+## Third party libraries?🧐🧐
 
+-axios
+-styled components 
 
