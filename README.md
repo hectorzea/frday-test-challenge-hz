@@ -17,9 +17,15 @@ Desktop Version
 ![image](https://user-images.githubusercontent.com/19554398/143962865-3aafc419-c036-4dd7-acf6-90dd6e1bdd89.png)
 
 
+![image](https://user-images.githubusercontent.com/19554398/143968394-3b39775d-3d9d-4f49-acca-24c4ef82ea65.png)
+
+
 Mobile Version
 
 ![image](https://user-images.githubusercontent.com/19554398/143962907-868bac09-25b2-42d7-84ab-a199fd3e587f.png)
+
+![image](https://user-images.githubusercontent.com/19554398/143968441-03111183-643d-4113-bf8a-ecf043be2b6c.png)
+
 
 
 ## Available Scripts
