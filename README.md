@@ -43,6 +43,8 @@ The first thing i did was to create the Context and then the provider
 
 Context: this is like the body of how my data flow will be working, this is called AppContext and has all the initial default values
 
+![image](https://user-images.githubusercontent.com/19554398/143965173-9e498afa-1c78-41ac-adab-3342d04c8f38.png)
+
 ![image](https://user-images.githubusercontent.com/19554398/143964001-716043ba-3959-4666-bc5c-8c931aa95a5f.png)
 
 ## How components are distributed on this application?🧐🧐
