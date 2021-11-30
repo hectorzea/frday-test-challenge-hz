@@ -2,6 +2,7 @@ import { useState, FC } from "react";
 import AppContext, { appContextDefaultValues } from "../context/AppContext";
 import { vehicleAPI } from "../api/vehicleAPI";
 import { IError, IVehicle } from "../interfaces/AppProvider";
+import { SERVER_DOWN } from "../constants";
 
 const AppProvider: FC = ({ children }) => {
   const [error, setError] = useState<IError>(appContextDefaultValues.error);
@@ -74,7 +75,7 @@ const AppProvider: FC = ({ children }) => {
       if (error.message === "Network Error") {
         setError({
           errorType: "makes",
-          message: "SERVER DOWN, START API SERVER PLEASE =3",
+          message: SERVER_DOWN,
         });
       } else {
         setError({

@@ -1,5 +1,6 @@
 export const URL_BACKEND_SERVER = "http://localhost:8080/api/";
-
+export const SERVER_DOWN =
+  "SERVER DOWN, START API SERVER on http://localhost:8080 please =(";
 export const MAKES = "makes";
 export const MAKES_ERROR_RETRIEVE_RECORDS =
   "An error ocurred when tried to retrieve makes";
