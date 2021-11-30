@@ -45,6 +45,15 @@ Context: this is like the body of how my data flow will be working, this is call
 
 ![image](https://user-images.githubusercontent.com/19554398/143964001-716043ba-3959-4666-bc5c-8c931aa95a5f.png)
 
+## How components are distributed on this application?🧐🧐
+
+We have the main App Component that is super easy to read:
+
+we have a vehicle selected?, we show the final step of the app, else we show the makes, if we have a make selected, we show the models too and if we have the make and the model we show the vehicles =)
+
+![image](https://user-images.githubusercontent.com/19554398/143964805-d8ca0396-4291-40ce-81cd-d3c910fa7fc8.png)
+
+
 Provider: the provider is the responsible for moving and dispatching all this properties across the entire application, like selecting a make, model, or vehicle.
 
 ## How is the 503 random backend error resolved here?🧐🧐
