@@ -6,6 +6,8 @@ The name of the application its called Vehilove
 
 Vehilove is a simple application that allows you to pick first a make, then the app bring you all the models, and when you select a model it shows all the available vehicles and simple selecting one to finish =)
 
+All of this done completly in TYPESCRIPT <3!
+
 Desktop Version
 
 ![image](https://user-images.githubusercontent.com/19554398/143962865-3aafc419-c036-4dd7-acf6-90dd6e1bdd89.png)
