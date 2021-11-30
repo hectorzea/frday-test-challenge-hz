@@ -10,7 +10,16 @@ All of this done completly in TYPESCRIPT <3!
 
 if you want to run the project just clone, and inside the folder cloned use:
 
-yarn start and when everything its up, it will automatically open the http://localhost:3000/
+1- start the api server provided by Friday using 
+
+  node apiserver/server.js
+
+2- start the frontend 
+
+  yarn start 
+  
+and when everything its up, it will automatically open the http://localhost:3000/
+   
 
 Desktop Version
 
