@@ -10,7 +10,7 @@ All of this done completly in TYPESCRIPT <3!
 
 # Installing the project!
 
-if you want to run the project just clone, and inside the cloned folder type the following command:
+To run thid project do the following:
 
 1) download and start the api server provided by Friday
    https://www.dropbox.com/s/i3bjhj90ccbtf1w/friday-code-challenge.zip?dl=0&file_subpath=%2Fapiserver
