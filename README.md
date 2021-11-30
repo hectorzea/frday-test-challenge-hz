@@ -10,7 +10,7 @@ All of this done completly in TYPESCRIPT <3!
 
 if you want to run the project just clone, and inside the folder cloned use:
 
-yarn start
+yarn start and when everything its up, it will automatically open the http://localhost:3000/
 
 Desktop Version
 
