@@ -55,8 +55,7 @@ we have a vehicle selected?, we show the final step of the app, else we show the
 
 ![image](https://user-images.githubusercontent.com/19554398/143964805-d8ca0396-4291-40ce-81cd-d3c910fa7fc8.png)
 
-
-Provider: the provider is the responsible for moving and dispatching all this properties across the entire application, like selecting a make, model, or vehicle.
+Provider: the provider is the responsible for moving and dispatching all this properties across the entire application, like selecting a make, model, or vehicle. maybe its the most important file on the entire application
 
 ## How is the 503 random backend error resolved here?🧐🧐
 
