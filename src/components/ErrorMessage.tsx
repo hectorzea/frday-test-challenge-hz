@@ -8,7 +8,7 @@ import {
   VEHICLES,
   VEHICLES_ERROR_RETRIEVE_RECORDS,
 } from "../constants";
-import { GreenButton } from "./VehiloveStyledComponents";
+import { GreenButton, GridComponent } from "./VehiloveStyledComponents";
 const ErrorMessage = () => {
   const {
     selectedMake,
@@ -67,9 +67,9 @@ const ErrorMessage = () => {
   };
 
   return (
-    <div>
+    <GridComponent>
       {message} <GreenButton onClick={handleReconnect}>retry</GreenButton>
-    </div>
+    </GridComponent>
   );
 };
 

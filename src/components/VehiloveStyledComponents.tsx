@@ -1,4 +1,7 @@
 import styled from "styled-components";
+export const GridComponent = styled.div`
+  display: grid;
+`;
 export const GreenButton = styled.button`
   &:active {
     background-color: #a7e1a9;
@@ -18,7 +21,7 @@ export const GreenButton = styled.button`
   cursor: pointer;
 `;
 export const VehicleDataContainer = styled.div`
-  height: 565px;
+  height: 307px;
   overflow-y: scroll;
   padding: 10px;
   margin-left: 5px;
