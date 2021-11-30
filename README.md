@@ -62,6 +62,11 @@ Inside the provider is a function called loadData, that is the responsible for a
 
 ![image](https://user-images.githubusercontent.com/19554398/143964562-384e4780-793b-4e4c-b58d-c95e38c16c7d.png)
 
+![image](https://user-images.githubusercontent.com/19554398/143965029-f87c6ac5-314a-4f98-9b69-061deff66382.png)
+
+![image](https://user-images.githubusercontent.com/19554398/143965049-eac17867-6bdd-40cc-b027-a61222abf506.png)
+
+
 this process is used for the models and for the vehicles too, so, thats nice because the user can keep going with the process of selecting a vehicle without having a crash in the application 
 
 
