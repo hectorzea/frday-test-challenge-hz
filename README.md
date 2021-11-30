@@ -30,3 +30,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `yarn test`
 
 You can run all the entire tests using this command =3 
+
+## Technical Solution 👌
