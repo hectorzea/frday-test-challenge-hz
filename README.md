@@ -10,9 +10,11 @@ All of this done completly in TYPESCRIPT <3!
 
 if you want to run the project just clone, and inside the cloned folder type the following command:
 
-1- start the api server (https://gitlab.forfriday.de/-/snippets/56) provided by Friday using 
-
-  node apiserver/server.js
+1- download and start the api server provided by Friday using 
+   (https://gitlab.forfriday.de/-/snippets/56)
+ 
+  
+2) enter inside the downloaded folder and use the command "node apiserver/server.js" to start the backend server
 
 2- start the frontend 
 
